@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#ShopSection {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 3.5rem;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#ShopSection img {
+  height: 25rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  #ShopSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  #items {
+    padding-top: 40px;
+    border-bottom: 4px solid #202020;
+  }
+}

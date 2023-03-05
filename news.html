@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>DC United</title>
+    <title>News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/news.css" />
   </head>
-
   <body>
     <header class="header">
       <div class="hamburger">
@@ -38,33 +37,16 @@
       <div id="empty"></div>
     </header>
     <main>
-      <section class="bannerImage">
-        <div>
-          <img
-            id="stad-image"
-            src="https://washington.org/sites/default/files/2022-06/AudiField_Washington.jpg"
-            alt="Audi Field"
-          />
-        </div>
-      </section>
-      <section class="whoWeAre">
-        <div class="pd">
-          WHO
-          <span class="middleWord">WE</span>
-          ARE
-        </div>
-        <div class="description">
-          <p class="para">
-            We are a professional soccer club based in Washington, D.C.
-            competing in the Eastern Conference of Major League Soccer (MLS),
-            the top tier of American soccer. Over our 28-year history, we have
-            won four MLS Cups, four Supporters Shields, three U.S. Open Cups,
-            and six Eastern Conference championships. In addition,
-            internationally, we have won one CONCACAF Champions League title and
-            one Copa Interamericana, the only American team to win the latter.
-          </p>
-        </div>
-      </section>
+      <form action="Enter Your Email Here!" method="get" class="newsForm">
+        <input
+          type="email"
+          placeholder="Enter Your Email Here"
+          class="email"
+          required
+        />
+        <div></div>
+        <input type="submit" value="Submit" class="submit" />
+      </form>
     </main>
   </body>
 </html>
